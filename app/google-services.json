@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "49864829570",
+    "firebase_url": "https://adyourself-13ceb.firebaseio.com",
+    "project_id": "adyourself-13ceb",
+    "storage_bucket": "adyourself-13ceb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:49864829570:android:1fef8ce2b45ded9312e29b",
+        "android_client_info": {
+          "package_name": "com.example.adyourself_fb"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "49864829570-6qpveh0ocmb8l1jf1tok1m53pas1bldi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.adyourself_fb",
+            "certificate_hash": "736df9afa8a8fd345e3c833be394f1a1ce031486"
+          }
+        },
+        {
+          "client_id": "49864829570-m9kjgdgaj5ce3bojifld0i0566o9kpgh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC_F_fkB4Y6eoiD8tzpoDLFeYSQATYMtA4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "49864829570-m9kjgdgaj5ce3bojifld0i0566o9kpgh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

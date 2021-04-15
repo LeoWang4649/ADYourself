@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/text_showuser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="26dp"
+        android:layout_marginLeft="26dp"
+        android:layout_marginTop="18dp"
+        android:text="#顯示目前使用者"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar2" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="22dp"
+        android:layout_marginLeft="22dp"
+        android:layout_marginBottom="68dp"
+        android:text="刊登紀錄"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView7"
+        app:layout_constraintStart_toEndOf="@+id/btn_to_userorderhistory" />
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_light"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginLeft="36dp"
+        android:layout_marginTop="11dp"
+        android:text="使用者"
+        android:textSize="25dp"
+        app:layout_constraintStart_toEndOf="@+id/text_showuser"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_mp_signout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:text="登出"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar2" />
+
+    <ImageButton
+        android:id="@+id/btn_to_queryeboard"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="22dp"
+        android:layout_marginBottom="24dp"
+        android:background="@drawable/button_btn"
+        app:layout_constraintBottom_toTopOf="@+id/btn_to_accountdetail"
+        app:layout_constraintEnd_toEndOf="@+id/btn_to_accountdetail"
+        app:layout_constraintStart_toStartOf="@+id/text_showuser"
+        app:layout_constraintTop_toBottomOf="@+id/text_showuser"
+        app:srcCompat="@android:drawable/ic_menu_search" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="19dp"
+        android:layout_marginLeft="19dp"
+        android:layout_marginTop="49dp"
+        android:text="查詢電子看板"
+        android:textSize="18sp"
+        app:layout_constraintStart_toEndOf="@+id/btn_to_queryeboard"
+        app:layout_constraintTop_toBottomOf="@+id/text_showuser" />
+
+    <ImageButton
+        android:id="@+id/btn_to_accountdetail"
+        android:layout_width="0dp"
+        android:layout_height="74dp"
+        android:layout_marginTop="71dp"
+        android:layout_marginBottom="74dp"
+        android:background="@drawable/button_btn"
+        app:layout_constraintBottom_toBottomOf="@+id/textView34587"
+        app:layout_constraintEnd_toEndOf="@+id/btn_to_notification"
+        app:layout_constraintStart_toStartOf="@+id/btn_to_notification"
+        app:layout_constraintTop_toTopOf="@+id/textView2"
+        app:srcCompat="?android:attr/actionModeFindDrawable" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="19dp"
+        android:layout_marginLeft="19dp"
+        android:layout_marginTop="71dp"
+        android:text="帳戶資料"
+        android:textSize="18sp"
+        app:layout_constraintStart_toEndOf="@+id/btn_to_accountdetail"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <ImageButton
+        android:id="@+id/btn_to_notification"
+        android:layout_width="0dp"
+        android:layout_height="74dp"
+        android:layout_marginTop="74dp"
+        android:layout_marginBottom="74dp"
+        android:background="@drawable/button_btn"
+        app:layout_constraintBottom_toBottomOf="@+id/textView4"
+        app:layout_constraintEnd_toEndOf="@+id/btn_to_loveeboard"
+        app:layout_constraintStart_toStartOf="@+id/btn_to_loveeboard"
+        app:layout_constraintTop_toTopOf="@+id/textView3"
+        app:srcCompat="@android:drawable/ic_dialog_email" />
+
+    <TextView
+        android:id="@+id/textView34587"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="22dp"
+        android:layout_marginLeft="22dp"
+        android:layout_marginBottom="24dp"
+        android:text="訊息通知"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="@+id/btn_to_notification"
+        app:layout_constraintStart_toEndOf="@+id/btn_to_notification" />
+
+    <ImageButton
+        android:id="@+id/btn_to_loveeboard"
+        android:layout_width="0dp"
+        android:layout_height="74dp"
+        android:layout_marginTop="73dp"
+        android:layout_marginBottom="71dp"
+        android:background="@drawable/button_btn"
+        app:layout_constraintBottom_toBottomOf="@+id/textView5"
+        app:layout_constraintEnd_toEndOf="@+id/btn_to_userorderhistory"
+        app:layout_constraintStart_toStartOf="@+id/btn_to_userorderhistory"
+        app:layout_constraintTop_toTopOf="@+id/textView34587"
+        app:srcCompat="@android:drawable/btn_star" />
+
+    <ImageButton
+        android:id="@+id/btn_to_userorderhistory"
+        android:layout_width="0dp"
+        android:layout_height="74dp"
+        android:layout_marginTop="95dp"
+        android:layout_marginBottom="95dp"
+        android:background="@drawable/button_btn"
+        app:layout_constraintBottom_toBottomOf="@+id/btn_to_qrcode"
+        app:layout_constraintEnd_toEndOf="@+id/btn_to_qrcode"
+        app:layout_constraintStart_toStartOf="@+id/btn_to_qrcode"
+        app:layout_constraintTop_toTopOf="@+id/btn_to_loveeboard"
+        app:srcCompat="@android:drawable/ic_menu_today" />
+
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="19dp"
+        android:layout_marginLeft="19dp"
+        android:layout_marginBottom="72dp"
+        android:text="我的最愛看板"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView5"
+        app:layout_constraintStart_toEndOf="@+id/btn_to_loveeboard" />
+
+    <ImageButton
+        android:id="@+id/btn_to_qrcode"
+        android:layout_width="0dp"
+        android:layout_height="74dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginLeft="26dp"
+        android:layout_marginTop="69dp"
+        android:layout_marginEnd="22dp"
+        android:layout_marginRight="22dp"
+        android:layout_marginBottom="57dp"
+        android:background="@drawable/button_btn"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/textView7"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView5"
+        app:srcCompat="?attr/actionModeSelectAllDrawable" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="123dp"
+        android:layout_marginLeft="123dp"
+        android:layout_marginBottom="84dp"
+        android:text="QR Code 掃描器"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
